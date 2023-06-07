@@ -1,0 +1,40 @@
+[Sun Jun 04 15:03:53.487350 2023] [mpm_event:notice] [pid 2343:tid 140169551730560] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Sun Jun 04 15:03:53.487449 2023] [core:notice] [pid 2343:tid 140169551730560] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Jun 04 15:32:52.851969 2023] [negotiation:error] [pid 2345:tid 140169403426368] (2)No such file or directory: [client 10.0.0.100:44568] AH00683: cannot access type map file: /var/www/html/3gAHJtWj.var
+[Sun Jun 04 15:32:53.119340 2023] [core:error] [pid 2345:tid 140169395033664] [client 10.0.0.100:44616] AH00135: Invalid method in request DEBUG / HTTP/1.1
+[Sun Jun 04 15:32:53.124869 2023] [core:error] [pid 2345:tid 140169344677440] [client 10.0.0.100:44628] AH00135: Invalid method in request TRACK / HTTP/1.0
+[Sun Jun 04 15:32:53.126438 2023] [core:error] [pid 2345:tid 140169327892032] [client 10.0.0.100:44634] AH00135: Invalid method in request TRACK / HTTP/1.0
+[Sun Jun 04 15:32:53.320065 2023] [core:error] [pid 2346:tid 140169294321216] [client 10.0.0.100:44650] AH10244: invalid URI path (/%NETHOOD%/)
+[Sun Jun 04 15:32:53.632393 2023] [core:error] [pid 2346:tid 140169403426368] [client 10.0.0.100:44684] AH00135: Invalid method in request get / HTTP/1.1
+[Sun Jun 04 15:32:53.633993 2023] [core:error] [pid 2346:tid 140169386640960] [client 10.0.0.100:44690] AH00135: Invalid method in request INDEX / HTTP/1.1
+[Sun Jun 04 15:32:53.672432 2023] [core:error] [pid 2346:tid 140169386640960] [client 10.0.0.100:44700] AH10244: invalid URI path (/%a%s%p%d)
+[Sun Jun 04 15:32:53.742258 2023] [core:error] [pid 2346:tid 140169378248256] [client 10.0.0.100:44710] AH10244: invalid URI path (/../../../../../../../../../boot.ini)
+[Sun Jun 04 15:32:53.743884 2023] [core:error] [pid 2345:tid 140169277535808] [client 10.0.0.100:44716] AH10244: invalid URI path (/../../../../winnt/repair/sam._)
+[Sun Jun 04 15:32:53.749005 2023] [core:error] [pid 2345:tid 140169513633344] [client 10.0.0.100:44732] AH10244: invalid URI path (////./../.../boot.ini)
+[Sun Jun 04 15:32:53.759783 2023] [core:error] [pid 2345:tid 140169369855552] [client 10.0.0.100:44744] AH10244: invalid URI path (/DomainFiles/*//../../../../../../../../../../etc/passwd)
+[Sun Jun 04 15:32:53.815742 2023] [core:error] [pid 2345:tid 140169538819648] [client 10.0.0.100:44752] AH10244: invalid URI path (/../../../../../../../../../../etc/passwd)
+[Sun Jun 04 15:32:53.821511 2023] [core:error] [pid 2346:tid 140169336284736] [client 10.0.0.100:44762] AH10244: invalid URI path (/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/windows/win.ini)
+[Sun Jun 04 15:32:53.823174 2023] [core:error] [pid 2346:tid 140169319499328] [client 10.0.0.100:44774] AH10244: invalid URI path (/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd)
+[Sun Jun 04 15:32:54.422972 2023] [core:error] [pid 2346:tid 140169302713920] [client 10.0.0.100:44870] AH10244: invalid URI path (/file/../../../../../../../../etc/)
+[Sun Jun 04 15:32:54.699902 2023] [authz_core:error] [pid 2346:tid 140169378248256] [client 10.0.0.100:44882] AH01630: client denied by server configuration: /var/www/html/server-status
+[Sun Jun 04 15:32:54.711860 2023] [core:error] [pid 2346:tid 140169311106624] [client 10.0.0.100:44882] AH10244: invalid URI path (/../webserver.ini)
+[Sun Jun 04 15:32:54.801350 2023] [core:error] [pid 2346:tid 140169411819072] [client 10.0.0.100:44918] AH10244: invalid URI path (/../config.dat)
+[Sun Jun 04 15:32:56.182463 2023] [authz_core:error] [pid 2345:tid 140169538819648] [client 10.0.0.100:44912] AH01630: client denied by server configuration: /var/www/html/.htpasswd
+[Sun Jun 04 15:32:56.192527 2023] [authz_core:error] [pid 2345:tid 140169411819072] [client 10.0.0.100:44912] AH01630: client denied by server configuration: /var/www/html/.htaccess
+[Sun Jun 04 15:32:56.210999 2023] [core:error] [pid 2345:tid 140169294321216] [client 10.0.0.100:44912] AH10244: invalid URI path (////../../data/config/microsrv.cfg)
+[Sun Jun 04 15:32:56.212626 2023] [core:error] [pid 2346:tid 140169411819072] [client 10.0.0.100:44926] AH10244: invalid URI path (////////../../../../../../etc/passwd)
+[Sun Jun 04 15:32:56.497004 2023] [negotiation:error] [pid 2346:tid 140169327892032] (2)No such file or directory: [client 10.0.0.100:44948] AH00683: cannot access type map file: /var/www/html/index.html.var
+[Sun Jun 04 15:32:56.527254 2023] [core:error] [pid 2346:tid 140169361462848] [client 10.0.0.100:44948] AH00135: Invalid method in request SEARCH / HTTP/1.1
+[Sun Jun 04 15:32:56.529024 2023] [autoindex:error] [pid 2346:tid 140169344677440] [client 10.0.0.100:44952] AH01276: Cannot serve directory /usr/share/apache2/icons/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 04 15:33:01.380836 2023] [core:error] [pid 2346:tid 140169369855552] [client 10.0.0.100:45356] AH10244: invalid URI path (/sdk/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/etc/vmware/hostd/vmInventory.xml)
+[Sun Jun 04 15:33:01.554138 2023] [core:error] [pid 2345:tid 140169488430656] [client 10.0.0.100:45390] AH10244: invalid URI path (/../../windows/dvr2.ini)
+[Sun Jun 04 15:33:01.555939 2023] [core:error] [pid 2345:tid 140169403426368] [client 10.0.0.100:45396] AH10244: invalid URI path (/htdocs/../../../../../../../../../../../etc/passwd)
+[Sun Jun 04 15:33:01.574232 2023] [core:error] [pid 2345:tid 140169285928512] [client 10.0.0.100:45398] AH10244: invalid URI path (/help/../../../../../../../../../../../../../../../../etc/shadow)
+[Sun Jun 04 15:46:15.151031 2023] [core:error] [pid 2345:tid 140169513633344] [client 10.0.0.100:32960] AH10244: invalid URI path (/sdk/../../../../../../../etc/vmware/hostd/vmInventory.xml)
+[Sun Jun 04 15:46:15.152738 2023] [core:error] [pid 2345:tid 140169496831552] [client 10.0.0.100:32990] AH10244: invalid URI path (/sdk/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/etc/vmware/hostd/vmInventory.xml)
+[Sun Jun 04 15:46:15.153828 2023] [core:error] [pid 2345:tid 140169411819072] [client 10.0.0.100:32992] AH10244: invalid URI path (/../../../../../../../../../../etc/passwd)
+[Sun Jun 04 15:46:15.154930 2023] [core:error] [pid 2346:tid 140169505232448] [client 10.0.0.100:33002] AH10244: invalid URI path (/../../../../../../../../../../boot.ini)
+[Sun Jun 04 15:46:15.313585 2023] [authz_core:error] [pid 2345:tid 140169302713920] [client 10.0.0.100:54086] AH01630: client denied by server configuration: /var/www/html/.htaccess
+[Sun Jun 04 15:46:15.313666 2023] [authz_core:error] [pid 2345:tid 140169302713920] [client 10.0.0.100:54086] AH01630: client denied by server configuration: /var/www/html/.htpasswd
+[Sun Jun 04 15:46:15.466169 2023] [autoindex:error] [pid 2345:tid 140169488430656] [client 10.0.0.100:54380] AH01276: Cannot serve directory /usr/share/apache2/icons/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 04 15:46:15.530799 2023] [authz_core:error] [pid 2345:tid 140169269143104] [client 10.0.0.100:54542] AH01630: client denied by server configuration: /var/www/html/server-status
